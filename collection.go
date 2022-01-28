@@ -114,9 +114,9 @@ func (c *Collection) GetName() string {
 
 // TableProperty describes property of a table
 type TableProperty struct {
-	Width    int    `json:"width"`
-	Visible  bool   `json:"visible"`
-	Property string `json:"property"`
+	Width    float64 `json:"width"`
+	Visible  bool    `json:"visible"`
+	Property string  `json:"property"`
 }
 
 type QuerySort struct {
