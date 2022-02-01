@@ -4,6 +4,7 @@ package notionapi
 type User struct {
 	Email                      string `json:"email"`
 	FamilyName                 string `json:"family_name"`
+	Name                       string `json:"name"`
 	GivenName                  string `json:"given_name"`
 	ID                         string `json:"id"`
 	Locale                     string `json:"locale"`
